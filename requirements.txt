@@ -1,0 +1,18 @@
+Django>=4.2.0
+djangorestframework
+djangorestframework-simplejwt
+django-cors-headers
+django-filter
+drf-spectacular
+django-cleanup
+django-extensions
+python-decouple
+dj-database-url
+django-redis
+celery
+django-celery-beat
+django-celery-results
+phonenumber-field
+django-imagekit
+whitenoise
+psycopg2-binary  # for PostgreSQL

@@ -1,0 +1,17 @@
+INFO 2025-07-01 17:04:34,690 autoreload 29612 28000 Watching for file changes with StatReloader
+INFO 2025-07-01 17:05:43,506 autoreload 29612 28000 C:\Users\user\Desktop\projects\zonner_backend\zonner_backend\settings.py changed, reloading.
+INFO 2025-07-01 17:05:44,263 autoreload 16436 23852 Watching for file changes with StatReloader
+INFO 2025-07-01 17:05:57,828 autoreload 16436 23852 C:\Users\user\Desktop\projects\zonner_backend\zonner_backend\settings.py changed, reloading.
+INFO 2025-07-01 17:05:58,561 autoreload 3020 13584 Watching for file changes with StatReloader
+INFO 2025-07-01 17:06:02,907 autoreload 3020 13584 C:\Users\user\Desktop\projects\zonner_backend\zonner_backend\settings.py changed, reloading.
+INFO 2025-07-01 17:06:03,610 autoreload 3900 18228 Watching for file changes with StatReloader
+INFO 2025-07-01 17:06:48,999 autoreload 9652 16932 Watching for file changes with StatReloader
+INFO 2025-07-01 17:08:13,046 autoreload 9652 16932 C:\Users\user\Desktop\projects\zonner_backend\zonner_backend\settings.py changed, reloading.
+INFO 2025-07-01 17:08:18,664 autoreload 27472 15152 Watching for file changes with StatReloader
+INFO 2025-07-01 17:08:42,442 autoreload 27472 15152 C:\Users\user\Desktop\projects\zonner_backend\zonner_backend\settings.py changed, reloading.
+INFO 2025-07-01 17:08:47,937 autoreload 18908 16948 Watching for file changes with StatReloader
+INFO 2025-07-01 17:09:13,094 autoreload 18908 16948 C:\Users\user\Desktop\projects\zonner_backend\zonner_backend\settings.py changed, reloading.
+INFO 2025-07-01 17:09:14,640 autoreload 11724 16984 Watching for file changes with StatReloader
+INFO 2025-07-01 17:09:18,107 autoreload 11724 16984 C:\Users\user\Desktop\projects\zonner_backend\zonner_backend\settings.py changed, reloading.
+INFO 2025-07-01 17:09:19,546 autoreload 23728 25312 Watching for file changes with StatReloader
+INFO 2025-07-01 17:23:13,446 autoreload 24520 17040 Watching for file changes with StatReloader
