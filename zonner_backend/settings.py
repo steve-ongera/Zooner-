@@ -50,22 +50,24 @@ THIRD_PARTY_APPS = [
     
     # API documentation
     'drf_spectacular',
-    
-    # Pagination and throttling
-    #'drf_tracking',
-    
+    'drf_yasg',
     # Phone number validation
     'phonenumber_field',
     
     # Image processing
     'imagekit',
-    
     # Celery for background tasks
     'django_celery_beat',
     'django_celery_results',
-    
-    # Admin interface improvements
     'django_extensions',
+]
+
+MIDDLEWARE = ['corsheaders.middleware.CorsMiddleware', ...]
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:3000",  # React
+    "http://10.0.2.2:8000",   # Android emulator
+    "http://192.168.x.x",     # Local IP for physical Android
+    "http://127.0.0.1:8000",  # Local testing
 ]
 
 
@@ -203,7 +205,7 @@ REST_FRAMEWORK = {
         'rest_framework.parsers.FormParser',
     ],
     'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
-    'EXCEPTION_HANDLER': 'core.exceptions.custom_exception_handler',
+    #'EXCEPTION_HANDLER': 'core.exceptions.custom_exception_handler',
 }
 
 # =============================================================================
@@ -318,15 +320,15 @@ CELERY_BEAT_SCHEDULER = 'django_celery_beat.schedulers.DatabaseScheduler'
 # CACHING CONFIGURATION
 # =============================================================================
 
-CACHES = {
-    'default': {
-        'BACKEND': 'django_redis.cache.RedisCache',
-        'LOCATION': config('REDIS_URL', default='redis://localhost:6379/1'),
-        'OPTIONS': {
-            'CLIENT_CLASS': 'django_redis.client.DefaultClient',
-        }
-    }
-}
+# CACHES = {
+#     'default': {
+#         'BACKEND': 'django_redis.cache.RedisCache',
+#         'LOCATION': config('REDIS_URL', default='redis://localhost:6379/1'),
+#         'OPTIONS': {
+#             'CLIENT_CLASS': 'django_redis.client.DefaultClient',
+#         }
+#     }
+# }
 
 # =============================================================================
 # FILE UPLOAD CONFIGURATION
