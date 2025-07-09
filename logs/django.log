@@ -587,3 +587,31 @@ Traceback (most recent call last):
 django.template.exceptions.TemplateDoesNotExist: drf-yasg/swagger-ui.html
 ERROR 2025-07-09 15:10:03,307 basehttp 10760 9952 "GET /swagger/ HTTP/1.1" 500 108798
 INFO 2025-07-09 15:10:47,408 autoreload 4664 14732 Watching for file changes with StatReloader
+INFO 2025-07-09 15:10:53,943 basehttp 4664 13880 "GET /swagger/ HTTP/1.1" 200 2459
+INFO 2025-07-09 15:10:54,113 basehttp 4664 13880 "GET /static/drf-yasg/style.css HTTP/1.1" 200 1047
+INFO 2025-07-09 15:10:54,179 basehttp 4664 4732 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 145206
+INFO 2025-07-09 15:10:54,194 basehttp 4664 13020 "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093
+INFO 2025-07-09 15:10:54,194 basehttp 4664 13880 "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 15480
+INFO 2025-07-09 15:10:54,213 basehttp 4664 12920 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1046583
+INFO 2025-07-09 15:10:54,259 basehttp 4664 5152 "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904
+INFO 2025-07-09 15:10:54,411 basehttp 4664 15164 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 322863
+INFO 2025-07-09 15:10:54,518 basehttp 4664 5152 "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628
+INFO 2025-07-09 15:10:54,637 basehttp 4664 15164 "GET /swagger/?format=openapi HTTP/1.1" 200 26886
+INFO 2025-07-09 15:12:32,682 basehttp 4664 15164 "GET /swagger/?format=openapi HTTP/1.1" 200 26886
+INFO 2025-07-09 15:14:11,590 basehttp 4664 8564 "GET /redoc/ HTTP/1.1" 200 927
+INFO 2025-07-09 15:14:11,610 basehttp 4664 8564 "GET /static/drf-yasg/style.css HTTP/1.1" 304 0
+INFO 2025-07-09 15:14:11,624 basehttp 4664 11836 "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 304 0
+INFO 2025-07-09 15:14:11,654 basehttp 4664 9752 "GET /static/drf-yasg/redoc-init.js HTTP/1.1" 200 2566
+INFO 2025-07-09 15:14:11,705 basehttp 4664 10224 "GET /static/drf-yasg/redoc/redoc.min.js HTTP/1.1" 200 1042511
+INFO 2025-07-09 15:14:11,974 basehttp 4664 10224 "GET /redoc/?format=openapi HTTP/1.1" 200 26886
+INFO 2025-07-09 15:14:11,990 basehttp 4664 9752 "GET /static/drf-yasg/redoc/redoc-logo.png HTTP/1.1" 200 4969
+INFO 2025-07-09 17:17:03,714 basehttp 4664 7616 "GET /swagger/ HTTP/1.1" 200 2459
+INFO 2025-07-09 17:17:03,740 basehttp 4664 7616 "GET /static/drf-yasg/style.css HTTP/1.1" 304 0
+INFO 2025-07-09 17:17:03,759 basehttp 4664 7616 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 304 0
+INFO 2025-07-09 17:17:03,761 basehttp 4664 5908 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 304 0
+INFO 2025-07-09 17:17:03,761 basehttp 4664 9044 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 304 0
+INFO 2025-07-09 17:17:03,764 basehttp 4664 11112 "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 304 0
+INFO 2025-07-09 17:17:03,766 basehttp 4664 5064 "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 304 0
+INFO 2025-07-09 17:17:03,769 basehttp 4664 14312 "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 304 0
+INFO 2025-07-09 17:17:04,097 basehttp 4664 5064 "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 304 0
+INFO 2025-07-09 17:17:04,097 basehttp 4664 14312 "GET /swagger/?format=openapi HTTP/1.1" 200 26886
