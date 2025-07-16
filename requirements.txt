@@ -1,18 +1,32 @@
-Django>=4.2.0
+# Django and core dependencies
+Django>=5.2
+python-decouple
+dj-database-url
+whitenoise
+
+# DRF & API-related
 djangorestframework
 djangorestframework-simplejwt
 django-cors-headers
 django-filter
 drf-spectacular
+drf-yasg
+
+# Utility apps
 django-cleanup
 django-extensions
-python-decouple
-dj-database-url
-django-redis
+phonenumber-field
+django-imagekit
+
+# Celery and async task handling
 celery
 django-celery-beat
 django-celery-results
-phonenumber-field
-django-imagekit
-whitenoise
-psycopg2-binary  # for PostgreSQL
+redis  # Required for Celery broker
+
+# Optional but often needed
+psycopg2-binary  # PostgreSQL
+Pillow  # Image file handling
+
+# For logging and file handling
+gunicorn  # production WSGI server
