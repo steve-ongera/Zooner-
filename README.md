@@ -96,6 +96,7 @@ Zooner is a modern business discovery platform designed to help users find and c
 - Node.js 16+
 - PostgreSQL 12+
 - Android Studio (for mobile development)
+- username: admin@gmail.com password:12345678
 
 ### Backend Setup
 

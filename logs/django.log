@@ -615,3 +615,8 @@ INFO 2025-07-09 17:17:03,766 basehttp 4664 5064 "GET /static/drf-yasg/immutable.
 INFO 2025-07-09 17:17:03,769 basehttp 4664 14312 "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 304 0
 INFO 2025-07-09 17:17:04,097 basehttp 4664 5064 "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 304 0
 INFO 2025-07-09 17:17:04,097 basehttp 4664 14312 "GET /swagger/?format=openapi HTTP/1.1" 200 26886
+WARNING 2025-07-09 17:20:25,462 log 4664 14312 Not Found: /towns/
+WARNING 2025-07-09 17:20:25,464 basehttp 4664 14312 "GET /towns/ HTTP/1.1" 404 2695
+WARNING 2025-07-09 17:20:37,376 log 4664 14312 Not Found: /swagger/towns/
+WARNING 2025-07-09 17:20:37,376 basehttp 4664 14312 "GET /swagger/towns/ HTTP/1.1" 404 2719
+INFO 2025-07-16 17:39:47,404 autoreload 12992 17352 Watching for file changes with StatReloader
