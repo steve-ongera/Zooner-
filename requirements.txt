@@ -15,7 +15,7 @@ drf-yasg
 # Utility apps
 django-cleanup
 django-extensions
-phonenumber-field
+django-phonenumber-field
 django-imagekit
 
 # Celery and async task handling
